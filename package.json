@@ -1,0 +1,23 @@
+{
+  "name": "teapot",
+  "version": "0.1.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "http-server -c-1 ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/adelura/teapot.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/adelura/teapot/issues"
+  },
+  "homepage": "https://github.com/adelura/teapot#readme",
+  "dependencies": {
+    "http-server": "^0.12.1"
+  }
+}
