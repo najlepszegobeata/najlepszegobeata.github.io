@@ -20,7 +20,6 @@ body {
 }
 
 p {
-    border: 1px solid black;
     margin: 0 auto;
     text-align: center;
 }
@@ -33,15 +32,14 @@ p {
 
 .letter {
     display: inline-block;
-    border: 1px solid red;
     /*max-width: 16vw;*/
-    max-width: 16%;
+    max-width: 10%;
     vertical-align: middle;
     margin-bottom: 10px;
 }
 
 .letter__horizontal {
-    max-width: 28%;
+    max-width: 18%;
 }
 
 .letter img {
