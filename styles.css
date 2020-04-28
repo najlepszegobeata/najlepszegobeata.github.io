@@ -8,6 +8,18 @@ body {
     justify-content: center;
 }
 
+@media (orientation: landscape) {
+    br {
+        display: none;
+    }
+}
+
+@media (orientation: portrait) {
+    .letter {
+        max-width: 15% !important;
+    }
+}
+
 .letter:nth-child(1) { transform: rotate(-2deg); }
 .letter:nth-child(2) { transform: rotate(2deg); }
 .letter:nth-child(3) { transform: rotate(-1deg); }
@@ -27,7 +39,7 @@ p {
 .word {
     white-space: nowrap;
     /*display: inline-block*/
-    margin: 1vw;
+    margin: 3vw;
 }
 
 .letter {
