@@ -6,6 +6,7 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
+    background: #455a64;
 }
 
 @media (orientation: landscape) {
@@ -56,4 +57,6 @@ p {
 
 .letter img {
     width: 100%;
+    border: 5px solid #B0BEC5;
+    box-sizing: border-box;
 }
