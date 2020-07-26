@@ -35,7 +35,12 @@ body:before {
 .letter:nth-child(2) { transform: rotate(2deg); }
 .letter:nth-child(3) { transform: rotate(-1deg); }
 .letter:nth-child(4) { transform: rotate(-2deg); }
-.letter:nth-child(5) { transform: rotate(0deg); }
+.letter:nth-child(5) { transform: rotate(-4deg); }
+.letter:nth-child(6) { transform: rotate(4deg); }
+.letter:nth-child(7) { transform: rotate(1deg); }
+.letter:nth-child(8) { transform: rotate(-2deg); }
+.letter:nth-child(9) { transform: rotate(3deg); }
+.letter:nth-child(10) { transform: rotate(-1deg); }
 
 .mobile {
     max-width: 1200px;
